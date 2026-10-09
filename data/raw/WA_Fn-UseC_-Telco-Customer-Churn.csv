@@ -1,0 +1,121 @@
+customer_id,gender,senior_citizen,partner,dependents,phone_service,multiple_lines,internet_service,online_security,online_backup,device_protection,contract,monthly_charges,churn
+1,Male,0,Yes,No,Yes,No,DSL,No,Yes,No,Month-to-month,29.85,Yes
+2,Female,0,No,No,No,Yes,Fiber optic,Yes,No,Yes,Month-to-month,70.7,Yes
+3,Female,0,No,No,No,Yes,Fiber optic,Yes,No,Yes,Month-to-month,99.65,Yes
+4,Female,0,No,No,No,Yes,Fiber optic,Yes,Yes,Yes,Month-to-month,89.1,Yes
+5,Male,0,Yes,No,Yes,No,DSL,Yes,No,No,Two year,56.95,No
+6,Male,0,Yes,No,Yes,No,DSL,No,No,No,Two year,53.85,No
+7,Female,0,No,No,No,Yes,Fiber optic,Yes,No,Yes,Month-to-month,99.65,Yes
+8,Male,0,Yes,No,Yes,No,DSL,No,No,No,Month-to-month,29.95,No
+9,Female,0,No,Yes,No,No,No,No,No,No,Month-to-month,30.0,Yes
+10,Male,0,Yes,No,Yes,No,DSL,Yes,Yes,No,One year,56.5,No
+11,Female,0,No,No,No,Yes,Fiber optic,Yes,No,Yes,Month-to-month,95.2,Yes
+12,Male,0,Yes,Yes,Yes,No,DSL,No,No,No,Two year,49.95,No
+13,Female,0,No,No,No,Yes,Fiber optic,Yes,Yes,Yes,Month-to-month,89.5,Yes
+14,Male,0,Yes,No,Yes,No,DSL,No,Yes,No,One year,58.25,No
+15,Female,0,No,No,No,Yes,Fiber optic,Yes,No,Yes,Month-to-month,85.3,Yes
+16,Male,0,Yes,No,Yes,No,DSL,No,No,No,Two year,54.2,No
+17,Female,0,No,No,No,Yes,Fiber optic,Yes,No,Yes,Month-to-month,102.4,Yes
+18,Male,0,Yes,No,Yes,No,DSL,No,No,No,One year,55.75,No
+19,Female,0,No,Yes,No,No,No,No,No,No,Month-to-month,29.9,Yes
+20,Male,0,Yes,No,Yes,No,DSL,No,Yes,No,Two year,61.1,No
+21,Male,0,Yes,No,No,No,DSL,No,No,No,Month-to-month,70.2,Yes
+22,Female,1,No,No,Yes,No,Fiber optic,No,No,No,One year,99.1,No
+23,Male,0,No,No,Yes,No,No,No,No,No,Two year,44.0,No
+24,Female,0,Yes,No,Yes,Yes,DSL,Yes,No,Yes,Month-to-month,82.9,Yes
+25,Male,0,No,Yes,Yes,No,Fiber optic,No,Yes,No,One year,104.8,Yes
+26,Female,0,No,No,Yes,No,No,No,No,No,Two year,25.0,No
+27,Male,0,Yes,No,Yes,No,DSL,No,No,No,Month-to-month,56.9,No
+28,Female,0,No,No,No,No,Fiber optic,Yes,No,No,One year,85.8,No
+29,Male,0,No,No,Yes,No,No,No,No,No,Two year,30.7,No
+30,Female,0,Yes,Yes,Yes,No,DSL,No,Yes,Yes,Month-to-month,62.6,No
+31,Male,0,No,No,Yes,No,Fiber optic,No,No,No,One year,91.5,No
+32,Female,0,No,No,Yes,Yes,No,No,No,No,Two year,43.4,No
+33,Male,1,Yes,No,Yes,No,DSL,No,No,No,Month-to-month,68.3,No
+34,Female,0,No,No,Yes,No,Fiber optic,No,No,No,One year,97.2,No
+35,Male,0,No,Yes,No,No,No,No,No,No,Two year,42.1,No
+36,Female,0,Yes,No,Yes,Yes,DSL,Yes,No,Yes,Month-to-month,81.0,Yes
+37,Male,0,No,No,Yes,No,Fiber optic,No,No,No,One year,102.9,No
+38,Female,0,No,No,Yes,No,No,No,No,No,Two year,47.8,No
+39,Male,0,Yes,No,Yes,No,DSL,No,No,No,Month-to-month,55.0,No
+40,Female,0,No,Yes,Yes,Yes,Fiber optic,Yes,Yes,No,One year,90.9,Yes
+41,Male,0,No,No,Yes,No,No,No,No,No,Two year,28.8,No
+42,Female,0,Yes,No,No,No,DSL,No,No,Yes,Month-to-month,60.7,No
+43,Male,0,No,No,Yes,No,Fiber optic,No,No,No,One year,89.6,No
+44,Female,1,No,No,Yes,Yes,No,No,No,No,Two year,41.5,Yes
+45,Male,0,Yes,Yes,Yes,No,DSL,No,Yes,No,Month-to-month,66.4,No
+46,Female,0,No,No,Yes,No,Fiber optic,No,No,No,One year,95.3,No
+47,Male,0,No,No,Yes,No,No,No,No,No,Two year,40.2,No
+48,Female,0,Yes,No,Yes,Yes,DSL,Yes,No,Yes,Month-to-month,79.1,Yes
+49,Male,0,No,No,No,No,Fiber optic,No,No,No,One year,101.0,No
+50,Female,0,No,Yes,Yes,No,No,No,No,No,Two year,45.9,No
+51,Male,0,Yes,No,Yes,No,DSL,No,No,No,Month-to-month,77.8,Yes
+52,Female,0,No,No,Yes,Yes,Fiber optic,Yes,No,No,One year,89.0,No
+53,Male,0,No,No,Yes,No,No,No,No,No,Two year,26.9,No
+54,Female,0,Yes,No,Yes,No,DSL,No,No,Yes,Month-to-month,58.8,No
+55,Male,1,No,Yes,Yes,No,Fiber optic,No,Yes,No,One year,87.7,Yes
+56,Female,0,No,No,No,No,No,No,No,No,Two year,32.6,No
+57,Male,0,Yes,No,Yes,No,DSL,No,No,No,Month-to-month,64.5,No
+58,Female,0,No,No,Yes,No,Fiber optic,No,No,No,One year,93.4,No
+59,Male,0,No,No,Yes,No,No,No,No,No,Two year,38.3,No
+60,Female,0,Yes,Yes,Yes,Yes,DSL,Yes,Yes,Yes,Month-to-month,77.2,Yes
+61,Male,0,No,No,Yes,No,Fiber optic,No,No,No,One year,99.1,No
+62,Female,0,No,No,Yes,No,No,No,No,No,Two year,44.0,No
+63,Male,0,Yes,No,No,No,DSL,No,No,No,Month-to-month,75.9,Yes
+64,Female,0,No,No,Yes,Yes,Fiber optic,Yes,No,No,One year,111.8,No
+65,Male,0,No,Yes,Yes,No,No,No,No,No,Two year,25.0,No
+66,Female,1,Yes,No,Yes,No,DSL,No,No,Yes,Month-to-month,56.9,No
+67,Male,0,No,No,Yes,No,Fiber optic,No,No,No,One year,85.8,No
+68,Female,0,No,No,Yes,Yes,No,No,No,No,Two year,37.7,No
+69,Male,0,Yes,No,Yes,No,DSL,No,No,No,Month-to-month,62.6,No
+70,Female,0,No,Yes,No,No,Fiber optic,No,Yes,No,One year,91.5,Yes
+71,Male,0,No,No,Yes,No,No,No,No,No,Two year,36.4,No
+72,Female,0,Yes,No,Yes,Yes,DSL,Yes,No,Yes,Month-to-month,75.3,Yes
+73,Male,0,No,No,Yes,No,Fiber optic,No,No,No,One year,97.2,No
+74,Female,0,No,No,Yes,No,No,No,No,No,Two year,42.1,No
+75,Male,0,Yes,Yes,Yes,No,DSL,No,Yes,No,Month-to-month,74.0,Yes
+76,Female,0,No,No,Yes,Yes,Fiber optic,Yes,No,No,One year,109.9,No
+77,Male,1,No,No,No,No,No,No,No,No,Two year,47.8,No
+78,Female,0,Yes,No,Yes,No,DSL,No,No,Yes,Month-to-month,55.0,No
+79,Male,0,No,No,Yes,No,Fiber optic,No,No,No,One year,83.9,No
+80,Female,0,No,Yes,Yes,Yes,No,No,No,No,Two year,35.8,No
+81,Male,0,Yes,No,Yes,No,DSL,No,No,No,Month-to-month,60.7,No
+82,Female,0,No,No,Yes,No,Fiber optic,No,No,No,One year,89.6,No
+83,Male,0,No,No,Yes,No,No,No,No,No,Two year,34.5,No
+84,Female,0,Yes,No,No,No,DSL,Yes,No,Yes,Month-to-month,66.4,No
+85,Male,0,No,Yes,Yes,No,Fiber optic,No,Yes,No,One year,95.3,Yes
+86,Female,0,No,No,Yes,No,No,No,No,No,Two year,40.2,No
+87,Male,0,Yes,No,Yes,No,DSL,No,No,No,Month-to-month,72.1,Yes
+88,Female,1,No,No,Yes,Yes,Fiber optic,Yes,No,No,One year,108.0,Yes
+89,Male,0,No,No,Yes,No,No,No,No,No,Two year,45.9,No
+90,Female,0,Yes,Yes,Yes,No,DSL,No,Yes,Yes,Month-to-month,77.8,Yes
+91,Male,0,No,No,No,No,Fiber optic,No,No,No,One year,82.0,No
+92,Female,0,No,No,Yes,Yes,No,No,No,No,Two year,33.9,No
+93,Male,0,Yes,No,Yes,No,DSL,No,No,No,Month-to-month,58.8,No
+94,Female,0,No,No,Yes,No,Fiber optic,No,No,No,One year,87.7,No
+95,Male,0,No,Yes,Yes,No,No,No,No,No,Two year,32.6,No
+96,Female,0,Yes,No,Yes,Yes,DSL,Yes,No,Yes,Month-to-month,71.5,Yes
+97,Male,0,No,No,Yes,No,Fiber optic,No,No,No,One year,93.4,No
+98,Female,0,No,No,No,No,No,No,No,No,Two year,38.3,No
+99,Male,1,Yes,No,Yes,No,DSL,No,No,No,Month-to-month,70.2,Yes
+100,Female,0,No,Yes,Yes,Yes,Fiber optic,Yes,Yes,No,One year,106.1,Yes
+101,Male,0,No,No,Yes,No,No,No,No,No,Two year,44.0,No
+102,Female,0,Yes,No,Yes,No,DSL,No,No,Yes,Month-to-month,75.9,Yes
+103,Male,0,No,No,Yes,No,Fiber optic,No,No,No,One year,104.8,No
+104,Female,0,No,No,Yes,Yes,No,No,No,No,Two year,32.0,No
+105,Male,0,Yes,Yes,No,No,DSL,No,Yes,No,Month-to-month,56.9,No
+106,Female,0,No,No,Yes,No,Fiber optic,No,No,No,One year,85.8,No
+107,Male,0,No,No,Yes,No,No,No,No,No,Two year,30.7,No
+108,Female,0,Yes,No,Yes,Yes,DSL,Yes,No,Yes,Month-to-month,69.6,No
+109,Male,0,No,No,Yes,No,Fiber optic,No,No,No,One year,91.5,No
+110,Female,1,No,Yes,Yes,No,No,No,No,No,Two year,36.4,No
+111,Male,0,Yes,No,Yes,No,DSL,No,No,No,Month-to-month,68.3,No
+112,Female,0,No,No,No,No,Fiber optic,Yes,No,No,One year,97.2,No
+113,Male,0,No,No,Yes,No,No,No,No,No,Two year,42.1,No
+114,Female,0,Yes,No,Yes,No,DSL,No,No,Yes,Month-to-month,74.0,Yes
+115,Male,0,No,Yes,Yes,No,Fiber optic,No,Yes,No,One year,102.9,Yes
+116,Female,0,No,No,Yes,Yes,No,No,No,No,Two year,54.8,No
+117,Male,0,Yes,No,Yes,No,DSL,No,No,No,Month-to-month,55.0,No
+118,Female,0,No,No,Yes,No,Fiber optic,No,No,No,One year,83.9,No
+119,Male,0,No,No,No,No,No,No,No,No,Two year,28.8,No
+120,Female,0,Yes,Yes,Yes,Yes,DSL,Yes,Yes,Yes,Month-to-month,67.7,No
