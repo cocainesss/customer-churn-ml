@@ -70,4 +70,5 @@ def test_invalid_monthly_charges(customer_data, invalid_charge):
 
     assert response.status_code == 422
 
-
+def test_ci_experiment():
+    assert 2 + 2 == 5
