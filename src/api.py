@@ -7,30 +7,46 @@ from src.predict import predict_churn
 app = FastAPI(
     title="Customer Churn Prediction API",
     description="API for predicting customer churn",
-    version="1.0.0"
+    version="2.0.0"
 )
+
+
 class Customer(BaseModel):
     gender: Literal["Male", "Female"]
-    senior_citizen: Literal[0, 1]
-    partner: Literal["Yes", "No"]
-    dependents: Literal["Yes", "No"]
-    phone_service: Literal["Yes", "No"]
-    multiple_lines: Literal["Yes", "No"]
-    internet_service: Literal["DSL", "Fiber optic", "No"]
-    online_security: Literal["Yes", "No"]
-    online_backup: Literal["Yes", "No"]
-    device_protection: Literal["Yes", "No"]
-    contract: Literal["Month-to-month", "One year", "Two year"]
-    monthly_charges: float = Field(ge=0, le=1000)
+    SeniorCitizen: Literal[0, 1]
+    Partner: Literal["Yes", "No"]
+    Dependents: Literal["Yes", "No"]
+    tenure: int = Field(ge=0)
+    PhoneService: Literal["Yes", "No"]
+    MultipleLines: Literal["Yes", "No", "No phone service"]
+    InternetService: Literal["DSL", "Fiber optic", "No"]
+    OnlineSecurity: Literal["Yes", "No", "No internet service"]
+    OnlineBackup: Literal["Yes", "No", "No internet service"]
+    DeviceProtection: Literal["Yes", "No", "No internet service"]
+    TechSupport: Literal["Yes", "No", "No internet service"]
+    StreamingTV: Literal["Yes", "No", "No internet service"]
+    StreamingMovies: Literal["Yes", "No", "No internet service"]
+    Contract: Literal["Month-to-month", "One year", "Two year"]
+    PaperlessBilling: Literal["Yes", "No"]
+    PaymentMethod: Literal[
+        "Electronic check",
+        "Mailed check",
+        "Bank transfer (automatic)",
+        "Credit card (automatic)"
+    ]
+    MonthlyCharges: float = Field(ge=0)
+    TotalCharges: float = Field(ge=0)
 
-@app.post('/predict')
+
+@app.post("/predict")
 def predict(customer: Customer):
     customer_dict = customer.model_dump()
     customer_df = pd.DataFrame([customer_dict])
     result = predict_churn(customer_df)
     return result
 
-@app.get('/')
+
+@app.get("/")
 def home():
     return {
         "message": "Customer Churn API is running"

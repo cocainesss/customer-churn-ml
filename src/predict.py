@@ -3,34 +3,21 @@ import joblib
 import pandas as pd
 
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
-MODEL_PATH = PROJECT_ROOT / 'models' / 'churn_model.joblib'
 
-artifact = joblib.load(MODEL_PATH)
+MODEL_PATH = PROJECT_ROOT / "models" / "churn_model_real.joblib"
+THRESHOLD_PATH = PROJECT_ROOT / "models" / "churn_threshold_real.joblib"
 
-model = artifact['pipeline']
-threshold = artifact['threshold']
-positive_class = artifact['positive_class']
+model = joblib.load(MODEL_PATH)
+threshold = float(joblib.load(THRESHOLD_PATH))
 
-customer = pd.DataFrame([{
-    "gender": "Male",
-    "senior_citizen": 0,
-    "partner": "Yes",
-    "dependents": "No",
-    "phone_service": "Yes",
-    "multiple_lines": "No",
-    "internet_service": "DSL",
-    "online_security": "No",
-    "online_backup": "Yes",
-    "device_protection": "No",
-    "contract": "Month-to-month",
-    "monthly_charges": 85.0
-}])
+positive_class = "Yes"
 
-def predict_churn(customer):
+
+def predict_churn(customer: pd.DataFrame):
     probabilities = model.predict_proba(customer)
 
     yes_index = list(model.classes_).index(positive_class)
-    churn_probability = probabilities[0, yes_index]
+    churn_probability = float(probabilities[0, yes_index])
 
     prediction = (
         "Yes" if churn_probability >= threshold else "No"
@@ -44,10 +31,7 @@ def predict_churn(customer):
         risk_level = "Low"
 
     return {
-        "churn_probability": float(churn_probability),
+        "churn_probability": churn_probability,
         "prediction": prediction,
         "risk_level": risk_level
     }
-
-if __name__ == "__main__":
-    print(predict_churn(customer))
